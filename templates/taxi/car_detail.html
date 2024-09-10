@@ -4,7 +4,7 @@
   <h2>Detail Info about car: {{ car.model }}</h2>
   <div class="ml-3">
     <h3>Manufacturer:</h3>
-    <p>{{ manufacturer.name }}, {{ manufacturer.country }}</p>
+    <p>{{ car.manufacturer.name }}, {{ car.manufacturer.country }}</p>
   </div>
   <div class="ml-3">
   {% for driver in car.drivers.all %}
